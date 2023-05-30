@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRIANGULO_CLASSE", "TRIANGULO_CLASSE\TRIANGULO_CLASSE.csproj", "{898EA874-16CC-4240-843B-55907A34DC2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{898EA874-16CC-4240-843B-55907A34DC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898EA874-16CC-4240-843B-55907A34DC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898EA874-16CC-4240-843B-55907A34DC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898EA874-16CC-4240-843B-55907A34DC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394D62BD-342F-4CBD-A377-FC8EA6210D18}
+	EndGlobalSection
+EndGlobal
