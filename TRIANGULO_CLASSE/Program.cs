@@ -35,12 +35,16 @@ namespace Couse
             {   // fala para o user ""
                 Console.WriteLine("Maior área: Y");
             }
-
+            
+            //cria uma variavel do tipo static double para ler as medidas do triangulo onde nomeTriangulo será usado para conter X e Y
             static double[] LerMedidasTriangulo(string nomeTriangulo)
-            {
+            {   
+                //cria uma variavel para as medidas onde tem uma matriz com 3 colunas para os valores de a b e c
                 double[] medidas = new double[3];
-
+                
+                //fala para o user falar as medidas e logo depois fala o nome do triangulo sendo X ou Y
                 Console.WriteLine("Entre com as medidas do triângulo " + nomeTriangulo + ":");
+                //para i igual a 0 e sendo menor que 3, ele repete até chegar no seu valor máximo
                 for (int i = 0; i < 3; i++)
                 {
                     medidas[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
@@ -48,13 +52,16 @@ namespace Couse
 
                 return medidas;
             }
-
+            
+            //entra com a matriz das medidas
             static double CalcularAreaTriangulo(double[] medidas)
             {
+                //cria variaveis tipo double seguido de sua função de medida (a b e c) fazendo parte de [i] coluna
                 double a = medidas[0];
                 double b = medidas[1];
                 double c = medidas[2];
-
+                
+                //cria uma variavel para o calculo de soma das medidas para encontrar sua área
                 double p = (a + b + c) / 2.0;
                 double area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
 
