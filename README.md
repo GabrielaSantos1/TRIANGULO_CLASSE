@@ -1,4 +1,4 @@
-# Triângulo Classe C#
+# Triângulo Classe - C#
 ## Versão: 1.0 
 ## Status do Projeto: ✔️ Concluído
 
