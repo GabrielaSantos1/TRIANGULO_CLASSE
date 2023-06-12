@@ -1,6 +1,6 @@
 # Triângulo Classe - C#
 ## Versão: 1.0 
-## Status do Projeto: ✔️ Concluído
+## Status do Projeto: Em Progresso
 
 ## Tópicos
 🔹 Descrição do projeto 
